@@ -1,10 +1,10 @@
 \documentclass[a4paper]{article}
 
 \usepackage[
-    top=0.79in,
-    bottom=0.79in,
-    left=0.79in,
-    right=0.79in,
+    top=0.59in,
+    bottom=0.59in,
+    left=0.59in,
+    right=0.59in,
 ]{geometry}
 
 \usepackage{titlesec}
@@ -42,7 +42,7 @@
 
 \titleformat{\section}{\uppercase}{}{0pt}{}[{\vspace{0.5em}\titlerule}]
 \titleformat{\subsection}{\bf}{}{0pt}{}{}
-\titlespacing{\section}{0pt}{1em}{0.5em}
+\titlespacing{\section}{0pt}{0.7em}{0.5em}
 \titlespacing{\subsection}{0pt}{0pt}{0.1em}
 
 \begin{document}
@@ -50,15 +50,17 @@
 \selectfont
 
 \begin{minipage}{.5\textwidth}
-\LARGE{Anton Grbin}\\
-\normalsize{Cenkovecka 6, 10000 Zagreb, Croatia}
+\LARGE{Anton Grbin} \\
 \end{minipage}%
 \begin{minipage}{.5\textwidth}
 \raggedleft
 \href{mailto:anton.grbin@gmail.com}{anton.grbin@gmail.com} \\
-+385 92 345 3922 \\
-\href{https://github.com/agrbin}{github.com/agrbin}
+\href{https://github.com/agrbin}{github.com/agrbin} \\
+\href{https://linkedin.com/in/antongrbin/}{linkedin.com/in/antongrbin} \\
+
 \end{minipage}
+
+\textit{Staff Engineer with 15 years of experience looking for impactful individual contributor roles.}
 
 \vspace{1em}
 
@@ -69,15 +71,17 @@
     \item Data Engineering, API Platform, Architecture Review group
     \item Introduced Schema-as-Code culture for data exchange
         \begin{itemize}
+            \item Migrated our services to API-first approach: implemented code generation from API specs and client/server transport primitives
             \item Adopted by 100 engineers over 70 repositories in 5 languages
-            \item Went from 10 outages yearly due to incompatible data exchange to 0
+            \item Went from 10 critical outages yearly due to incompatible data exchange to 0
             \item Contributed to open source protobuf specification for JSON
         \end{itemize}
-    \item Lead engineering bootcamp workshop on technical decision making
+    \item Lead engineering bootcamp workshop on technical design and implementation
         \begin{itemize}
             \item 10 workshop iterations, 4 sessions per workshop, 80 engineers in total
         \end{itemize}
-    \item Python, Kotlin, Java, TypeScript, SWIFT, AWS
+    \item Extensive experience in API design in protobuf (REST-style and RPC)
+    \item Python, Kotlin, Java, TypeScript, Swift
 \end{period}
 
 \subsection{Google}
@@ -101,9 +105,8 @@
 
 \section{education}
 \subsection{University of Zagreb, Croatia}
-\begin{period}{Masters of Science, Computer Science}{2008 -- 2013}
+\begin{period}{Master of Science in Computing}{2008 -- 2013}
     \item Masters thesis in distributed systems awarded with Rector's award
-    \item The only perfect score at the Faculty Entrance Exam!
 \end{period}
 
 \section{Personal projects for fun}
@@ -111,7 +114,8 @@
     \href{https://github.com/agrbin/fitmarket}{FitMarket} &
     \begin{itemize}
         \item Multiplayer weight-loss game with elements of stock trading :)
-        \item NodeJS, JavaScript
+        \item Includes OCR for reading weigh-ins from scale with phone camera
+        \item NodeJS, end-to-end ML engineering from data collection to depeloyment on device
     \end{itemize} \\
     \href{https://github.com/agrbin/streamer}{Streamer} &
     \begin{itemize}
@@ -120,8 +124,7 @@
     \end{itemize} \\
     \href{https://github.com/agrbin/songuess}{Songuess} &
     \begin{itemize}
-        \item IRC-like music listening quiz
-        \item NodeJS, JavaScript
+        \item IRC-like music listening quiz built with NodeJS and jQuery
     \end{itemize} \\
 \end{skills}
 
